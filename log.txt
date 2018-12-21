@@ -1,0 +1,4 @@
+21-Dec-18
+    - start write fw project Zigbeam 
+    - read (by write to Serial) respone from CCC2530 
+    
