@@ -1,14 +1,16 @@
+
+#include <Arduino.h>
 #include <Wire.h>
 #include <HardwareSerial.h>
-#include <StackArray.h>
 
+#include "StackArray.h"
 
 #define RXD2 16
 #define TXD2 17
 
 const int ledPin = 13;
 int incomingByte = 0;
-
+int i = 0;
 
 HardwareSerial mySerial(2); // use UART 2 ( RX = RXD2, TX = TXD2 )
 
